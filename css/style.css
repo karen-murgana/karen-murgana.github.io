@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+/** Header rules*/
+.linksNavbar {
+    color: rgb(204, 187, 167) !important;
+}
+
+.linksNavbar:hover {
+    color: rgb(228, 216, 206) !important;
+}
+
+.linksNavbar:active {
+    color: #E0AFA0 !important;
+}
+
+/** Main rules*/
+body {
+    background-color: #F4F3EE !important;
+    z-index: -999;
+}
+
+.tarjeta-mi-cv {
+    margin-top: 80px;
+    border-radius: 30px;
+    margin-bottom: 80px;
+}
+.tarjeta-div-uno {
+    min-height: 80px;
+    background-color: #463F3A;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.tarjeta-div-dos{
+    object-position: 10px;
+    max-height: 100px;
+    z-index: 1000;
+}
+.tarjeta-div-dos img{
+    border: 2px solid white;
+}
+
+.tarjeta-div-tres {
+    min-height: 120px;
+    background-color: #BCB8B1;
+    position: relative;
+}
+
+.tarjeta-div-tres span {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #332e2b;
+}
+
+.color-beige{
+    background-color: #8A817C;
+}
+.color-beige-claro{
+    background-color: #BCB8B1;
+}
+.color-marron-oscuro{
+    background-color: #332e2b;
+}
+
+.tarjetas-infoper{
+    height: 250px;
+}
+
+.imagenes-educacion img{
+    object-fit: cover;
+    height: 220px;
+}
+
+.imagenes-trabajo img{
+    object-fit: cover;
+    height: 400px;
+}
+.imagenes-trabajo .contenido{
+    background-color: #332e2b;
+    color: #BCB8B1;
+    height: 400px;
+}
+
+a.links-contacto{
+    color: #684135 !important;
+}
+
+a.links-contacto:active {
+    color: #aa6b57 !important;
+}
+a.links-contacto:hover{
+    color: #9b5a46 !important;
+}
